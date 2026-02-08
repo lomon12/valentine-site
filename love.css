@@ -22,7 +22,7 @@ body{
 .box {
     width: 90%;
     max-width: 500px;
-    background: white;
+    background: rgb(255, 192, 203);
     border-radius: 20px;
     text-align: center;
     padding: 20px;
@@ -45,6 +45,7 @@ body{
         opacity:0;
     }
 }
+
 
 
 
