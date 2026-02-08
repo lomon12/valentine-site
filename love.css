@@ -35,9 +35,15 @@ h1 {
     font-size: 28px;
     color: hotpink;
 }
+h2 {
+    margin-top: 20px;
+    font-size: 28px;
+    color: hotpink;
+}
 
 /* Видео адаптивно */
 .video-container video {
     border-radius: 15px;
     max-width: 100%;
+
 }
