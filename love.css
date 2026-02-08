@@ -19,15 +19,14 @@ body{
 }
 
 /* контейнер видео */
-.video-box{
-  width:320px;
-  max-width:90%;
-}
-
-/* само видео */
-.video-box video{
-  width:100%;
-  border-radius:20px;
+.box {
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 
@@ -46,6 +45,7 @@ body{
         opacity:0;
     }
 }
+
 
 
 
