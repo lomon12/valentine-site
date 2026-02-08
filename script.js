@@ -1,28 +1,4 @@
-function createHeart() {
-    const heart = document.createElement("div");
-    heart.classList.add("heart");
-    heart.innerHTML = "❤️";
 
-    // случайная позиция
-    heart.style.left = Math.random() * 100 + "vw";
-
-    // случайный размер
-    heart.style.fontSize = Math.random() * 20 + 10 + "px";
-
-    // случайная скорость
-    const duration = Math.random() * 3 + 3;
-    heart.style.animationDuration = duration + "s";
-
-    document.body.appendChild(heart);
-
-    // удалить после полёта
-    setTimeout(() => {
-        heart.remove();
-    }, duration * 1000);
-}
-
-// создавать каждые 300мс
-setInterval(createHeart, 250);
 
 
 const yesBtn = document.getElementById("yesBtn");
@@ -79,4 +55,5 @@ noBtn.addEventListener("click", handleNo);
 // Событие для YES
 yesBtn.addEventListener("click", () => {
     window.location.href = "love.html";
+
 });
