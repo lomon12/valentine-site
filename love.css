@@ -16,10 +16,6 @@ body{
     margin-bottom:20px;
 }
 
-.gif{
-    width:300px;
-    border-radius:20px;
-}
 
 /* сердечки */
 .heart{
@@ -36,3 +32,4 @@ body{
         opacity:0;
     }
 }
+
