@@ -28,23 +28,7 @@ body {
 }
 
 /* Сердечки */
-.heart {
-    position: absolute;
-    bottom: -30px;
-    font-size: 40px;
-    animation: fly linear forwards;
-}
 
-@keyframes fly {
-    from {
-        transform: translateY(0) scale(1);
-        opacity: 1;
-    }
-    to {
-        transform: translateY(-110vh) scale(1.8);
-        opacity: 0;
-    }
-}
 
 
 #yesBtn {
@@ -60,3 +44,4 @@ body {
     position: relative;
     z-index: 1;
 }
+
