@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.buttons button {
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Сердечки */
+.heart {
+    position: absolute;
+    bottom: -30px;
+    font-size: 40px;
+    animation: fly linear forwards;
+}
+
+@keyframes fly {
+    from {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-110vh) scale(1.8);
+        opacity: 0;
+    }
+}
+
+
+#yesBtn {
+    background: hotpink;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+#noBtn {
+    background: rgb(53, 52, 52);
+    color: white;
+    position: relative;
+    z-index: 1;
+}
