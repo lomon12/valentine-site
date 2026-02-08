@@ -23,7 +23,7 @@ body{
 .title{
   position:relative;
   z-index:2;
-  color:white;
+  color: #ff69b4;   /* нежный розовый */
   font-size:40px;
   text-align:center;
   margin-top:40vh;
@@ -45,5 +45,6 @@ body{
         opacity:0;
     }
 }
+
 
 
