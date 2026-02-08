@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Текст по центру */
+h1 {
+    margin-top: 20px;
+    font-size: 28px;
+    color: hotpink;
+}
+
+/* Видео адаптивно */
+.video-container video {
+    border-radius: 15px;
+    max-width: 100%;
+}
